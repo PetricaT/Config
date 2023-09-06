@@ -15,8 +15,8 @@ do
 done
 
 # Install the following packages
-package="git zsh wget curl python3 python-pipx cargo vscode"
-${package_manager} ${package}
+package="git zsh most wget curl python3 python-pipx cargo vscode"
+${package_manager} ${package} -y
 
 # Install rust based packages
 cargo_package="exa"
